@@ -5,3 +5,11 @@ Nota: El área de un círculo se obtiene al elevar el radio a dos y multiplicand
 import math
 print(math.pi)
 > 3.1415..."""
+
+import math   #importar función matemática
+pi = math.pi
+
+def circulo(radio):
+    area = pi*radio**2
+    print("Él área de un círculo es", round(area,2))
+circulo(5)
