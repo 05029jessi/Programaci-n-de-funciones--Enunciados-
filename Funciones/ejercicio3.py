@@ -12,6 +12,4 @@ def relacion(num1, num2):
         return -1
     return 0
 
-print(relacion(5, 10), relacion(10, 5), relacion(5, 5))
-
-#
+print(relacion(5, 10), relacion(10, 5), relacion(5, 5))    # Relaciones entre números
